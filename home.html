@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow">
+      <h1 class="text-2xl font-black">
+        <span class="bg-white-600">EMMANUEL ABIMBOLA OGUNALDE</span>
+      </h1>
+      <div class="hidden md:flex gap-6">
+        <a href="#">Home</a>
+        <a href="/about.html">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <button
+        class="bg-black hover:bg-white hover:text-black hover:border-black transition text-white px-5 py-2 rounded-full"
+      >
+        Login
+      </button>
+    </nav>
+
+    <!--HERO-->
+    <section
+      class="min-h-[90vh] flex flex-col justify-center items-center text-center px-6 bg-blue-600 text-white"
+      style="
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url(bg.jpg.PNG);
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <img
+        src="me.jpg.png"
+        class="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-white shadow-2xl mb-6"
+      />
+      <h1 class="text-4xl md:text-6xl font-black">I am a web<br />Designer</h1>
+      <p class="text-slate-400 mt-4 font-black">
+        <b>With Tailwind,I don't stress again.</b>
+      </p>
+      <br />
+      <button
+        class="bg-orange-600 hover:bg-orange-700 hover:scale-105 px-7 py-3 rounded-full font-bold mt-6"
+      >
+        Contact Me
+      </button>
+    </section>
+
+    <!--CARDS-->
+    <section
+      class="py-16 px-6 flex flex-col items-center gap-6 max-w-6xl mx-auto bg-slate-199"
+    >
+      <h2 class="text-3xl font-black text-center mb-6">My Services</h2>
+      <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <!--CARD 1-->
+        <div
+          class="bg-white p-6 rounded-2xl w-[300px] text-center shadow-[0_10px_30px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)] hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-bold">Web Design</h3>
+          <p class="text-slate-500 mt-2">
+            I will design a clean website for your business.
+          </p>
+          <button
+            class="bg-orange-500 hover:bg-white hover:text-black transition text-white px-4 py-2 rounded-full mt-4"
+          >
+            Order Now
+          </button>
+        </div>
+
+        <!--CARD 2-->
+        <div
+          class="bg-white p-6 rounded-2xl w-[300px] text-center shadow-[0_10px_30px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)] hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-bold">Tailwind Expert</h3>
+          <p class="text-slate-500 mt-2">
+            Fast, Modern website with tailwind CSS.
+          </p>
+          <button
+            class="bg-orange-500 hover:bg-white hover:text-black transition text-white px-4 py-2 rounded-full mt-4"
+          >
+            order Now
+          </button>
+        </div>
+
+        <!-- CARD 3 -->
+        <div
+          class="bg-white p-6 rounded-2xl w-[300px] text-center shadow-[0_10px_30px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)] hover:-translate-y-2 transition"
+        >
+          <h3 class="text-xl font-bold">Landing Page</h3>
+          <p class="text-slate-500 mt-2">
+            Page that makes customers buy from you.
+          </p>
+          <button
+            class="bg-orange-500 hover:bg-white hover:text-black transition text-white px-4 py-2 rounded-full mt-4"
+          >
+            Order Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="bg-black text-white py-10">
+      <div class="container mx-auto px-6">
+        <p class="text-center">&copy; 2026 TOLUWANIMI. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
